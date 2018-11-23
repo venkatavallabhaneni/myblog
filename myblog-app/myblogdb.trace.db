@@ -1,0 +1,12 @@
+2018-11-10 08:09:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK [42102-197]
+2018-11-10 08:09:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CONTENT[*] MYBLOG"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT, {"; SQL statement:
+CONTENT MYBLOG [42001-197]
+2018-11-10 08:09:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CONTENT[*] MYBLOG"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT, {"; SQL statement:
+CONTENT MYBLOG [42001-197]
+2018-11-22 13:10:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "CATEGORY VARCHAR(4) NOT NULL": "'experience' (10)"; SQL statement:
+insert into myblog (category, content, id) values (?, ?, ?) [22001-197]
